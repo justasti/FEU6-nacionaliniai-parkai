@@ -10,3 +10,36 @@ body {
   font-family: 'Roboto', sans-serif;
   min-height: 100dvh;
 }
+#hero {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.heroH {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url('https://s1.15min.lt/images/photos/2016/05/06/original/ladakalnis_-foto-maza-572c4f6657a27.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #cfe2ca;
+  width: 1400px;
+  margin-inline: auto;
+  font-size: 4rem;
+}
+
+#hero>img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+
+}
+
+#hero>img>p {
+  margin: 0;
+}
+
+#hero {
+  width: 1400px;
+  margin-inline: auto
+}

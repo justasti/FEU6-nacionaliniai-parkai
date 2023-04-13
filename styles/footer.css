@@ -55,3 +55,6 @@ footer a:hover {
 .company_info a {
   color: #cfe2ca;
 }
+.company_info i {
+  margin-right: 10px;
+}

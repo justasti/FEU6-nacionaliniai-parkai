@@ -1,0 +1,40 @@
+#contacts {
+  display:flex;
+  margin: 10px 20px;
+  column-gap: 100px;
+}
+
+#contactInfo {
+  width: 350px;
+}
+
+/* #contactInfo > ul li {
+  text-decoration: none;
+} */
+
+#contactForm {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 10px 20px 20px 20px;
+  background-color: green;
+  color: #FFFFFF;
+}
+
+#contactForm input, textarea {
+  background-color: rgb(255, 255, 255, 0.75);
+  border: 1px solid green;
+  padding-left: 5px;
+}
+
+#contactForm input:last-child{
+  align-self: flex-end;
+  width: 90px;
+  color: green;
+  border-radius: 15px;
+  background-color: lightgreen;
+  border: 1px solid lightgreen;
+}

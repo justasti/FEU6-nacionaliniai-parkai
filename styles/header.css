@@ -10,21 +10,27 @@ header {
   width: 1400px;
   margin-inline: auto;
 }
+
 li a {
   color: #138273;
   text-decoration: none;
 }
+
 .logo img {
   height: 70px;
   width: auto;
 }
+
 nav ul {
   display: flex;
   list-style: none;
 }
+
 nav li {
   margin-right: 30px;
 }
+
 nav li:last-child {
   margin-right: 0;
 }
+

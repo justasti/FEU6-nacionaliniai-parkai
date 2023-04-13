@@ -18,20 +18,12 @@ li a {
   height: 70px;
   width: auto;
 }
-nav .menuKaireje {
-  display: none;
-  position: absolute;
-}
-nav .parkai:hover+.menuKaireje {
-  display: block;
-}
 nav ul {
   display: flex;
   list-style: none;
 }
 nav li {
   margin-right: 30px;
-  /* position: relative; */
 }
 nav li:last-child {
   margin-right: 0;

@@ -1,0 +1,38 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  width: 1400px;
+  margin-inline: auto;
+}
+li a {
+  color: #138273;
+  text-decoration: none;
+}
+.logo img {
+  height: 70px;
+  width: auto;
+}
+nav .menuKaireje {
+  display: none;
+  position: absolute;
+}
+nav .parkai:hover+.menuKaireje {
+  display: block;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-right: 30px;
+  /* position: relative; */
+}
+nav li:last-child {
+  margin-right: 0;
+}

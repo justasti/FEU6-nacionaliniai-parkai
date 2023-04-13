@@ -8,4 +8,5 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  min-height: 100dvh;
 }

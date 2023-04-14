@@ -1,5 +1,4 @@
-{
-    "nacionaliniai_parkai": [
+    [
         {
             "id": 1,
             "pavadinimas": "Aukštaitijos nacionalinis parkas",
@@ -98,4 +97,3 @@
             "isskirtine_verte": "Išskirtinumo parkui suteikia legendomis bei padavimais apipinti gamtos paveldo objektai: septynios Platelių ežero salos, Kreiviškių ir Auksalės pusiasaliai, Raganos uosis. Akį traukia paslaptingos Beržoro, Ilgio ežerų salos, Platelių liepa ir vinkšna, Stirbaičių ąžuolas, eglė Boba, Birškaus bukas, Plokščių miško eglė, Paparčių kaštonas. Parko teritorijoje peri visoje Europoje saugomų rūšių paukščių, esama ledynmečio augalų reliktų."
         }
     ]
-}

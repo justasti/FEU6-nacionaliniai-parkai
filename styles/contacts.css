@@ -1,46 +1,52 @@
 #contacts {
-  display:flex;
+  display: flex;
   margin: 10px 20px;
-  column-gap: 100px;
+  column-gap: 10px;
+  width: 1400px;
+  margin: 50px auto;
 }
 
 #contactInfo {
   width: 350px;
-  border: 1px solid green;
+  border: 1px solid #609652;
   border-radius: 15px;
-  box-shadow: 1px 1px 2px green;
+  box-shadow: 1px 1px 2px #609652;
   padding: 10px 20px 20px 20px;
+  flex: 1;
 }
 
 #contactForm {
-  width: 300px;
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  border: 1px solid green;
+  border: 1px solid #609652;
   border-radius: 15px;
-  box-shadow: 1px 1px 2px green;
+  box-shadow: 1px 1px 2px #609652;
   padding: 10px 20px 20px 20px;
-  background-color: green;
-  color: #FFFFFF;
+  background-color: #609652;
+  color: #ffffff;
+  flex: 2;
 }
 
-#contactForm input, textarea {
+#contactForm input,
+textarea {
   background-color: rgb(255, 255, 255, 0.75);
-  border: 1px solid green;
-  padding-left: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
-#contactForm input::placeholder, textarea::placeholder {
-  color: green;
+#contactForm input::placeholder,
+textarea::placeholder {
+  color: #609652;
 }
 
-#contactForm input:last-child{
+#contactForm input:last-child {
   align-self: flex-end;
   width: 90px;
-  color: green;
+  color: #609652;
   border-radius: 15px;
-  background-color: lightgreen;
-  border: 1px solid lightgreen;
+  background-color: light#609652;
+  border: 1px solid light#609652;
 }
 
 #contactInfo ul {

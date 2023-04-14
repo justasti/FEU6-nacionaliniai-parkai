@@ -28,9 +28,6 @@ header a.active {
   text-decoration-thickness: 5px;
   text-decoration-color: #609652;
 }
-header a.active:hover {
-  /* text-decoration: none; */
-}
 .logo img {
   height: 70px;
   width: auto;

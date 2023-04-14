@@ -1,9 +1,15 @@
+import Modal from './modaloGeneravimas.js'
+
 export default class Kortele {
-    constructor(logo, title, area, date) {
+    constructor(logo, title, area, date, nuotraukos, aprasymas, isskirtine_verte, nuoroda) {
         this.logo = logo;
         this.title = title;
         this.area = area;
         this.date = date;
+        this.nuotraukos = nuotraukos
+        this.aprasymas = aprasymas
+        this.isskirtine_verte = isskirtine_verte
+        this.nuoroda = nuoroda
         return this.render();
     }
     render() {
@@ -31,6 +37,18 @@ export default class Kortele {
         this.infoDiv.appendChild(this.dateEl);
 
         this.cardDiv.appendChild(this.infoDiv);
+        this.cardDiv.addEventListener('click', () => {
+            this.modal = new Modal({
+                pavadinimas: this.title,
+                nuotraukos: this.nuotraukos,
+                aprasymas: this.aprasymas,
+                isskirtine_verte: this.isskirtine_verte,
+                plotas: this.area,
+                ikurimo_data: this.date,
+                nuoroda: this.nuoroda
+            })
+            document.body.appendChild(this.modal)
+        })
 
         return this.cardDiv
     }

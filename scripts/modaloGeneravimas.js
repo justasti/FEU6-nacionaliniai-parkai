@@ -1,4 +1,4 @@
-class modaloGeneravimas {
+export default class modaloGeneravimas {
     constructor(props) {
         this.props = props;
         return this.render();
@@ -9,15 +9,18 @@ class modaloGeneravimas {
 
         this.backdropDiv = document.createElement('div');
         this.backdropDiv.classList.add('modal_backdrop');
+        this.backdropDiv.addEventListener('click', () => this.closeModal())
 
         this.contentDiv = document.createElement('div');
         this.contentDiv.classList.add('modal_content');
-        
+
         this.modalDiv.append(this.backdropDiv, this.contentDiv);
 
         this.button = document.createElement('button');
         this.buttonText = document.createTextNode('x');
         this.button.appendChild(this.buttonText);
+
+        this.button.addEventListener('click', () => this.closeModal())
 
         this.h2 = document.createElement('h2');
         this.h2Text = document.createTextNode(this.props.pavadinimas);
@@ -43,7 +46,7 @@ class modaloGeneravimas {
         this.p2Text = document.createTextNode(this.props.isskirtine_verte);
         this.p2.appendChild(this.p2Text);
         this.modalTextDiv.appendChild(this.p2);
-        
+
         this.cardDiv.append(this.img, this.modalTextDiv);
 
         this.lastP1 = document.createElement('p');
@@ -83,5 +86,9 @@ class modaloGeneravimas {
         this.contentDiv.append(this.button, this.h2, this.cardDiv, this.lastP1, this.lastP2, this.lastP3);
 
         return this.modalDiv;
+    }
+
+    closeModal() {
+        this.modalDiv.remove()
     }
 }

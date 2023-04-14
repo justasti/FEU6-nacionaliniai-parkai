@@ -42,11 +42,11 @@ body {
   align-items: center;
   padding: 30px;
   width: 1400px;
-  margin-inline: auto;
+  margin: 30px auto;
 }
 
 #about > img {
-  width: 15vw;
+  width: 25vw;
   height: auto;
   margin-right: 20px;
 }

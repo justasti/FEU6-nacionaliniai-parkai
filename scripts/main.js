@@ -1,6 +1,8 @@
 import Kortele from './class.js'
 
-fetch('./scripts/data.json').then(res => res.json()).then(parks => {
+fetch('./scripts/data.json')
+.then(res => res.json())
+.then(parks => {
   // console.log(parks);
   const allCards = document.querySelector('#allCards');
   parks.forEach(park => {

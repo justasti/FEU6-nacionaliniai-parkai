@@ -1,4 +1,4 @@
-class Kortele {
+export default class Kortele {
     constructor(logo, title, area, date) {
         this.logo = logo;
         this.title = title;
@@ -15,20 +15,20 @@ class Kortele {
         this.parkLogo.setAttribute('alt', 'Logo');
         this.cardDiv.appendChild(this.parkLogo);
 
-        this.title = document.createElement('h2');
-        this.title.textContent = this.title;
-        this.cardDiv.appendChild(this.title);
+        this.titleEl = document.createElement('h2');
+        this.titleEl.textContent = this.title;
+        this.cardDiv.appendChild(this.titleEl);
 
         this.infoDiv = document.createElement('div');
         this.infoDiv.classList.add('info');
 
-        this.area = document.createElement('p');
-        this.area.textContent = `Plotas: ${this.area}`;
-        this.infoDiv.appendChild(this.area);
+        this.areaEl = document.createElement('p');
+        this.areaEl.textContent = `Plotas: ${this.area} ha`;
+        this.infoDiv.appendChild(this.areaEl);
 
-        this.date = document.createElement('p');
-        this.date.textContent = `Įkurtas: ${this.date}`;
-        this.infoDiv.appendChild(this.date);
+        this.dateEl = document.createElement('p');
+        this.dateEl.textContent = `Įkurtas: ${this.date}`;
+        this.infoDiv.appendChild(this.dateEl);
 
         this.cardDiv.appendChild(this.infoDiv);
 

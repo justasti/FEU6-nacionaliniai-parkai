@@ -18,6 +18,7 @@ h1 {
   gap: 40px;
   justify-content: center;
   margin-block: 50px;
+  padding: 0px 50px;
 }
 .card {
   width: 300px;

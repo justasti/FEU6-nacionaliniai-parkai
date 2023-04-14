@@ -32,6 +32,8 @@ body {
   font-size: 4rem;
   isolation: isolate;
   position: relative;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
 }
 #hero h2 {
   z-index: 2;
@@ -53,4 +55,5 @@ body {
   margin: 0;
   line-height: 1.75rem;
   font-size: 1.15rem;
+  text-align: justify;
 }

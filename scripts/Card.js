@@ -1,14 +1,21 @@
+import Modal from './Modal.js'
 export default class Kortele {
-    constructor(logo, title, area, date) {
+    constructor(logo, title, area, date, description, images, link, unique_value) {
         this.logo = logo;
         this.title = title;
         this.area = area;
         this.date = date;
+        this.description = description
+        this.images = images
+        this.link = link
+        this.unique_value = unique_value
         return this.render();
     }
     render() {
         this.cardDiv = document.createElement('div');
         this.cardDiv.classList.add('card');
+
+        this.cardDiv.addEventListener('click', () => this.openModal())
 
         this.parkLogo = document.createElement('img');
         this.parkLogo.setAttribute('src', this.logo);
@@ -33,5 +40,21 @@ export default class Kortele {
         this.cardDiv.appendChild(this.infoDiv);
 
         return this.cardDiv
+    }
+
+    openModal() {
+        const modal = new Modal({
+            pavadinimas: this.title,
+            nuotraukos: this.images,
+            aprasymas: this.description,
+            isskirtine_verte: this.unique_value,
+            plotas: this.area,
+            ikurimo_data: this.date,
+            nuoroda: this.link,
+
+        })
+
+        document.body.appendChild(modal)
+
     }
 }

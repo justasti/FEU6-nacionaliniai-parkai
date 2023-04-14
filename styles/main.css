@@ -10,36 +10,49 @@ body {
   font-family: 'Roboto', sans-serif;
   min-height: 100dvh;
 }
-#hero {
-  display: flex;
-  align-items: center;
-  padding: 30px;
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.4);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
 }
 
-.heroH {
+#hero {
   text-align: center;
   padding: 100px 20px;
-  background-image: url('https://s1.15min.lt/images/photos/2016/05/06/original/ladakalnis_-foto-maza-572c4f6657a27.jpg');
+  background-image: url('https://cdn2.onlithuania.com/content/uploads/2021/09/241525486_4547517358613872_2058391730910417923_n.jpg?v=1632294905');
   background-size: cover;
   background-position: center;
   color: #cfe2ca;
   width: 1400px;
   margin-inline: auto;
   font-size: 4rem;
+  isolation: isolate;
+  position: relative;
 }
 
-#hero>img {
-  width: 200px;
+#hero h2 {
+  z-index: 2;
+  color: #fff;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 1400px;
+  margin-inline: auto;
+}
+
+#about > img {
+  width: 15vw;
   height: auto;
   margin-right: 20px;
-
 }
 
-#hero>img>p {
+#about > p {
   margin: 0;
-}
-
-#hero {
-  width: 1400px;
-  margin-inline: auto
+  line-height: 1.75rem;
+  font-size: 1.15rem;
 }

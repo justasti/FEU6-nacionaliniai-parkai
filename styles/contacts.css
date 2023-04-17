@@ -5,6 +5,7 @@
   width: 1400px;
   margin: 50px auto;
 }
+
 #contactInfo {
   width: 350px;
   border: 1px solid #609652;
@@ -13,20 +14,24 @@
   padding: 10px 20px 20px 20px;
   flex: 1;
 }
+
 #contactInfo span {
   display: block;
   margin-bottom: 10px;
   color: #609652;
 }
+
 span a {
   text-decoration: none;
   font-weight: bold;
   color: #609652;
 }
+
 span i {
   width: 15px;
   margin-right: 10px;
 }
+
 #contactForm {
   display: flex;
   flex-direction: column;
@@ -47,18 +52,19 @@ textarea {
   border-radius: 5px;
   padding: 5px 10px;
 }
+
 #contactForm input::placeholder,
 textarea::placeholder {
   color: #609652;
 }
 
-#contactForm input:last-child {
+#contactForm input[type=submit] {
   align-self: flex-end;
   width: 90px;
   color: #609652;
   border-radius: 15px;
-  background-color: light#609652;
-  border: 1px solid light#609652;
+  background-color: rgb(255, 255, 255, 0.75);
+  border: 1px solid #609652;
   cursor: pointer;
 }
 

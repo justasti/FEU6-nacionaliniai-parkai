@@ -1,99 +1,99 @@
-    [
-        {
-            "id": 1,
-            "pavadinimas": "Aukštaitijos nacionalinis parkas",
-            "plotas": 40572,
-            "ikurimo_data": "1974-04-03",
-            "aprasymas": [
-                "Aukštaitijos nacionalinis parkas yra vienas didžiausių Lietuvos nacionalinių parkų ir yra įsikūręs rytų Lietuvoje. Jis apima didelę dalį Aukštaitijos aukštumos ir yra žinomas dėl savo gamtos grožio, kurio dalis yra Aukštaitijos kraštovaizdžio draustinis.",
-                "Nuo aukštų parko kalvų atsiveria puikūs vaizdai į ežerus, dirbamus laukus ir miškus. Toks kraštovaizdis būdingas ežeringoms moreninėms aukštumoms."
-            ],
-            "nuotraukos": [
-                "https://vstt.lrv.lt/uploads/vstt/documents/images/aa.jpg",
-                "https://www.makaliauslietuva.lt/wp-content/gallery/ladakalnis-geras/ladakalnis-3.jpg?v=f2857754582e573f",
-                "https://www.kelvita.lt/files/2020-09/10026_gallery.jpg"
-            ],
-            "logo": "https://upload.wikimedia.org/wikipedia/lt/2/27/Aukstaitijos_nacionalinis_parkas.png",
-            "nuoroda": "https://www.aparkai.lt/",
-            "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
-            "isskirtine_verte": "Aukštaitijos nacionalinis parkas išsiskiria unikaliu kalvotu ežeringu mažai sukultūrintu Aukštaičių aukštumų kraštovaizdžiu, protakomis sujungtų dubakloniuose telkšančių ežerų virtinėmis."
-        },
-        {
-            "id": 2,
-            "pavadinimas": "Dzūkijos nacionalinis parkas",
-            "plotas": 55860,
-            "ikurimo_data": "1991-06-01",
-            "aprasymas": [
-                "Dzūkijos nacionalinis parkas yra vienas gražiausių Lietuvos nacionalinių parkų ir yra įsikūręs pietryčių Lietuvoje. Tai didžiulis miškų ir ežerų kompleksas, kuriame galima pamatyti daugybę retų augalų ir gyvūnų rūšių.",
-                "Dzūkijos nacionalinis parkas yra smėlėtoje Dainavos lygumoje. Parko paviršius yra vidutiniškai ~100 m aukštyje virš jūros lygio. Čia yra savitų žemyninių kopų Marcinkonių, Musteikos, Lynežerio ir Grybaulios apylinkėse. "
-            ],
-            "nuotraukos": [
-                "https://m.atostogoskaime.lt/data/tourism_objects/large/dzukijos_nacionalinis_parkas.lankytinos_vietos.atostogoskaime.lt.jpg",
-                "https://cdn1.onlithuania.com/content/uploads/2020/06/Rytas_Merkineje_DJI_0173.jpg",
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_l957TioK5dn7vRWsiCHoOrszl8329IGeDg&usqp=CAU"
-            ],
-            "logo": "https://upload.wikimedia.org/wikipedia/lt/0/05/Dzukijos_nacionalinis_parkas.png",
-            "nuoroda": "http://www.cepkeliai-dzukija.lt",
-            "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
-            "isskirtine_verte": "Dzūkijos nacionalinis parkas – didžiausia Lietuvos saugoma teritorija. Išskirtinis bruožas – upių ir upelių gausa nuo mažiausio šaltinio iki didžiausios Lietuvos upės – Nemuno. Itin raiškūs, vienas už kitą vaizdingesni Nemuno, Merkio, Ūlos, Skroblaus, Grūdos slėniai su unikaliais gamtos paminklais."
-        },
-        {
-            "id": 3,
-            "pavadinimas": "Kuršių nerijos nacionalinis parkas",
-            "plotas": 26286,
-            "ikurimo_data": "1991-06-01",
-            "aprasymas": [
-                "Kuršių nerijos nacionalinis parkas yra Lietuvos vienintelis nacionalinis parkas, kuris yra iš dalies vandens plotas. Jis apima didžiulę dalį Kuršių nerijos pusiasalio ir yra žinomas dėl savo unikalaus kraštovaizdžio, kurio dalis yra grynosios kopos ir didžiulės smėlio dėžės.",
-                "Nacionalinis parkas Lietuvos vakaruose, Kuršių nerijoje. Iš rytų parką skalauja Kuršių marios, iš vakarų - Baltijos jūra. Pietvakariuose ribojasi su Rusijos Kuršių nerijos nacionaliniu parku."
-            ],
-            "nuotraukos": [
-                "https://am.lrv.lt/uploads/am/news/images/852x536_crop/2522_78b92c4714bed927649dfb5b4a3bb62b.jpg",
-                "https://www.makaliauslietuva.lt/wp-content/post-images/185213-post/kursiu-nerijos-nacionalinis-parkas-ka-pamatyti-smiltyneje-juodkranteje-nidoje-pervalkoje-ir-preiloje-8610-790x363-c1.jpg",
-                "https://s1.15min.lt/images/photos/2019/08/28/big/kursiu-nerijos-nacionalinio-parko-vertybes-5d666be23e0ed.jpg",
-                "https://unesco.lt/images/M_images/2_Curonian-spit-Lithuania_Directorate-of-Curonian-spit-National-Park.JPG"
-            ],
-            "logo": "https://saugoma.lt/uploads/territories/images/2021-09/Kur%C5%A1iu%20Nerijos.png",
-            "nuoroda": "https://nerija.lrv.lt/",
-            "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
-            "isskirtine_verte": "Kuršių nerija – jūros, vėjo ir žmogaus sukurtas nepaprasto grožio, tačiau labai trapus ir lengvai pažeidžiamas kraštas. Šis tarp dviejų vandens plotų įsiterpęs smėlio ruožas žavi mažomis pamario gyvenvietėmis, unikaliomis gamtos ir kultūros paveldo vertybėmis."
-        },
-        {
-            "id": 4,
-            "pavadinimas": "Trakų nacionalinis parkas",
-            "plotas": 8454,
-            "ikurimo_data": "1992-07-23",
-            "aprasymas": [
-                "Trakų nacionalinis parkas yra vienas nedidelis Lietuvos nacionalinių parkų, esantis pietvakarių Lietuvoje, netoli sostinės Vilniaus.",
-                "Lygiagrečios ledyno suformuotos kalvų bei gūbrių grandinės kaitaliojasi su siaurais ir giliais arba plačiais ir plokščiais ežeringais tarpgūbriais."
-            ],
-            "nuotraukos": [
-                "https://www.vle.lt/tmp/vle-images/96510_1.jpg",
-                "https://www.lithuania.travel/media/cache/widen_1100/uploads/mediaparkcms/article/baa39fc9baa03812d851fbb9d9141ee1.jpeg",
-                "https://turizmogidas.lt/uploads/images/places/big/trakai-is-paukscio-skrydzio-viktoras-neliubinas_9FAxrPJp.jpg"
-            ],
-            "logo": "https://upload.wikimedia.org/wikipedia/lt/1/1f/Traku_nacionalinis_parkas.png",
-            "nuoroda": "http://www.seniejitrakai.lt/",
-            "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
-            "isskirtine_verte": "Trakų istorinis nacionalinis parkas - mažiausias iš visų Lietuvos nacionalinių parkų. Jame  vaizdingai persipina natūralus ir kultūrinis kraštovaizdis, atspindintys žmogaus ir gamtos darnaus sambūvio istoriją bei Lietuvos gyventojų gebėjimą išmintingai naudoti gamtinę aplinką valstybės kūrimui, savigynai ir saviraiškai, nesumenkinant gamtos vertybių ir grožio."
-        },
-        {
-            "id": 5,
-            "pavadinimas": "Žemaitijos nacionalinis parkas",
-            "plotas": 21720,
-            "ikurimo_data": "1991-04-23",
-            "aprasymas": [
-                "Žemaitijos nacionalinis parkas - tai gausybė lankytinų objektų, išsidėsčiusių aplink Platelių ežerą, gamtos paminklai, kultūriniai draustiniai ir vertybės.",
-                "Žemaitijos parko kalvotą reljefą suformavo tirpstantis ledynas maždaug prieš 12 000 metų. Susidariusios kalvos yra palyginti aukštos, apie 150–190 metrų. Ežerai užima daugiau kaip 7 proc. parko teritorijos"
-            ],
-            "nuotraukos": [
-                "https://www.camping.lt/media/cache/thumb_840x500/uploads/location/5b96a2f05d0ad799456893.jpg",
-                "https://m.atostogoskaime.lt/data/tourism_objects/large/zemaitijos_parkas_lankytinos_vietos_atostogoskaime.lt___kopija.jpeg",
-                "https://m.atostogoskaime.lt/data/tourism_objects/large/zemaitijos_parkas_lankytinos_vietos_atostogoskaime.lt___kopija_002.jpeg",
-                "https://www.guliveriokeliones.lt/files/2019-02/9895_large.jpg"
-            ],
-            "logo": "https://upload.wikimedia.org/wikipedia/lt/f/f1/Zemaitijos_nacionalinis_parkas.png",
-            "nuoroda": "http://zemaitijosnp.lt/en/",
-            "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
-            "isskirtine_verte": "Išskirtinumo parkui suteikia legendomis bei padavimais apipinti gamtos paveldo objektai: septynios Platelių ežero salos, Kreiviškių ir Auksalės pusiasaliai, Raganos uosis. Akį traukia paslaptingos Beržoro, Ilgio ežerų salos, Platelių liepa ir vinkšna, Stirbaičių ąžuolas, eglė Boba, Birškaus bukas, Plokščių miško eglė, Paparčių kaštonas. Parko teritorijoje peri visoje Europoje saugomų rūšių paukščių, esama ledynmečio augalų reliktų."
-        }
-    ]
+[
+  {
+    "id": 1,
+    "pavadinimas": "Aukštaitijos nacionalinis parkas",
+    "plotas": 40572,
+    "ikurimo_data": "1974-04-03",
+    "aprasymas": [
+      "Aukštaitijos nacionalinis parkas yra vienas didžiausių Lietuvos nacionalinių parkų ir yra įsikūręs rytų Lietuvoje. Jis apima didelę dalį Aukštaitijos aukštumos ir yra žinomas dėl savo gamtos grožio, kurio dalis yra Aukštaitijos kraštovaizdžio draustinis.",
+      "Nuo aukštų parko kalvų atsiveria puikūs vaizdai į ežerus, dirbamus laukus ir miškus. Toks kraštovaizdis būdingas ežeringoms moreninėms aukštumoms."
+    ],
+    "nuotraukos": [
+      "../images/aukstaitija1.jpg",
+      "../images/aukstaitija2.jpg",
+      "../images/aukstaitija3.jpg"
+    ],
+    "logo": "../images/aukstaitija_logo.png",
+    "nuoroda": "https://www.aparkai.lt/",
+    "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
+    "isskirtine_verte": "Aukštaitijos nacionalinis parkas išsiskiria unikaliu kalvotu ežeringu mažai sukultūrintu Aukštaičių aukštumų kraštovaizdžiu, protakomis sujungtų dubakloniuose telkšančių ežerų virtinėmis."
+  },
+  {
+    "id": 2,
+    "pavadinimas": "Dzūkijos nacionalinis parkas",
+    "plotas": 55860,
+    "ikurimo_data": "1991-06-01",
+    "aprasymas": [
+      "Dzūkijos nacionalinis parkas yra vienas gražiausių Lietuvos nacionalinių parkų ir yra įsikūręs pietryčių Lietuvoje. Tai didžiulis miškų ir ežerų kompleksas, kuriame galima pamatyti daugybę retų augalų ir gyvūnų rūšių.",
+      "Dzūkijos nacionalinis parkas yra smėlėtoje Dainavos lygumoje. Parko paviršius yra vidutiniškai ~100 m aukštyje virš jūros lygio. Čia yra savitų žemyninių kopų Marcinkonių, Musteikos, Lynežerio ir Grybaulios apylinkėse. "
+    ],
+    "nuotraukos": [
+      "../images/dzukija1.jpg",
+      "../images/dzukija2.jpg",
+      "../images/dzukija3.jpg"
+    ],
+    "logo": "../images/dzukija_logo.png",
+    "nuoroda": "http://www.cepkeliai-dzukija.lt",
+    "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
+    "isskirtine_verte": "Dzūkijos nacionalinis parkas – didžiausia Lietuvos saugoma teritorija. Išskirtinis bruožas – upių ir upelių gausa nuo mažiausio šaltinio iki didžiausios Lietuvos upės – Nemuno. Itin raiškūs, vienas už kitą vaizdingesni Nemuno, Merkio, Ūlos, Skroblaus, Grūdos slėniai su unikaliais gamtos paminklais."
+  },
+  {
+    "id": 3,
+    "pavadinimas": "Kuršių nerijos nacionalinis parkas",
+    "plotas": 26286,
+    "ikurimo_data": "1991-06-01",
+    "aprasymas": [
+      "Kuršių nerijos nacionalinis parkas yra Lietuvos vienintelis nacionalinis parkas, kuris yra iš dalies vandens plotas. Jis apima didžiulę dalį Kuršių nerijos pusiasalio ir yra žinomas dėl savo unikalaus kraštovaizdžio, kurio dalis yra grynosios kopos ir didžiulės smėlio dėžės.",
+      "Nacionalinis parkas Lietuvos vakaruose, Kuršių nerijoje. Iš rytų parką skalauja Kuršių marios, iš vakarų - Baltijos jūra. Pietvakariuose ribojasi su Rusijos Kuršių nerijos nacionaliniu parku."
+    ],
+    "nuotraukos": [
+      "../images/kursiu_nerija1.jpg",
+      "../images/kursiu_nerija2.jpg",
+      "../images/kursiu_nerija3.jpg",
+      "../images/kursiu_nerija4.jpg"
+    ],
+    "logo": "../images/kursiu_nerija_logo.png",
+    "nuoroda": "https://nerija.lrv.lt/",
+    "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
+    "isskirtine_verte": "Kuršių nerija – jūros, vėjo ir žmogaus sukurtas nepaprasto grožio, tačiau labai trapus ir lengvai pažeidžiamas kraštas. Šis tarp dviejų vandens plotų įsiterpęs smėlio ruožas žavi mažomis pamario gyvenvietėmis, unikaliomis gamtos ir kultūros paveldo vertybėmis."
+  },
+  {
+    "id": 4,
+    "pavadinimas": "Trakų nacionalinis parkas",
+    "plotas": 8454,
+    "ikurimo_data": "1992-07-23",
+    "aprasymas": [
+      "Trakų nacionalinis parkas yra vienas nedidelis Lietuvos nacionalinių parkų, esantis pietvakarių Lietuvoje, netoli sostinės Vilniaus.",
+      "Lygiagrečios ledyno suformuotos kalvų bei gūbrių grandinės kaitaliojasi su siaurais ir giliais arba plačiais ir plokščiais ežeringais tarpgūbriais."
+    ],
+    "nuotraukos": [
+      "../images/trakai1.jpg",
+      "../images/trakai2.jpg",
+      "../images/trakai3.jpg"
+    ],
+    "logo": "../images/trakai_logo.png",
+    "nuoroda": "http://www.seniejitrakai.lt/",
+    "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
+    "isskirtine_verte": "Trakų istorinis nacionalinis parkas - mažiausias iš visų Lietuvos nacionalinių parkų. Jame  vaizdingai persipina natūralus ir kultūrinis kraštovaizdis, atspindintys žmogaus ir gamtos darnaus sambūvio istoriją bei Lietuvos gyventojų gebėjimą išmintingai naudoti gamtinę aplinką valstybės kūrimui, savigynai ir saviraiškai, nesumenkinant gamtos vertybių ir grožio."
+  },
+  {
+    "id": 5,
+    "pavadinimas": "Žemaitijos nacionalinis parkas",
+    "plotas": 21720,
+    "ikurimo_data": "1991-04-23",
+    "aprasymas": [
+      "Žemaitijos nacionalinis parkas - tai gausybė lankytinų objektų, išsidėsčiusių aplink Platelių ežerą, gamtos paminklai, kultūriniai draustiniai ir vertybės.",
+      "Žemaitijos parko kalvotą reljefą suformavo tirpstantis ledynas maždaug prieš 12 000 metų. Susidariusios kalvos yra palyginti aukštos, apie 150–190 metrų. Ežerai užima daugiau kaip 7 proc. parko teritorijos"
+    ],
+    "nuotraukos": [
+      "../images/zemaitija1.jpg",
+      "../images/zemaitija2.jpg",
+      "../images/zemaitija3.jpg",
+      "../images/zemaitija4.jpg"
+    ],
+    "logo": "../images/zemaitija_logo.png",
+    "nuoroda": "http://zemaitijosnp.lt/en/",
+    "zemelapis": "https://vstt.lrv.lt/uploads/vstt/news/images/852x536_crop/776_7887fd1c07e5942b58ad4981529b2eda.jpg",
+    "isskirtine_verte": "Išskirtinumo parkui suteikia legendomis bei padavimais apipinti gamtos paveldo objektai: septynios Platelių ežero salos, Kreiviškių ir Auksalės pusiasaliai, Raganos uosis. Akį traukia paslaptingos Beržoro, Ilgio ežerų salos, Platelių liepa ir vinkšna, Stirbaičių ąžuolas, eglė Boba, Birškaus bukas, Plokščių miško eglė, Paparčių kaštonas. Parko teritorijoje peri visoje Europoje saugomų rūšių paukščių, esama ledynmečio augalų reliktų."
+  }
+]

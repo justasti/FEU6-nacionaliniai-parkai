@@ -23,7 +23,7 @@ body {
 #hero {
   text-align: center;
   padding: 100px 20px;
-  background-image: url('https://cdn2.onlithuania.com/content/uploads/2021/09/241525486_4547517358613872_2058391730910417923_n.jpg?v=1632294905');
+  background-image: url('../images/hero.jpg');
   background-size: cover;
   background-position: center;
   color: #cfe2ca;

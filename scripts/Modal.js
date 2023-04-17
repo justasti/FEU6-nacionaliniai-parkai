@@ -1,6 +1,7 @@
 export default class modaloGeneravimas {
     constructor(props) {
         this.props = props;
+        this.currentImage=0;
         return this.render();
     }
     render() {
@@ -27,10 +28,36 @@ export default class modaloGeneravimas {
         this.h2.appendChild(this.h2Text);
 
         this.cardDiv = document.createElement('div')
+        this.cardDiv.classList.add('description');
+
+        this.imageDiv=document.createElement('div');
+        this.imageDiv.classList.add('images_container');
 
         this.img = document.createElement('img');
+        this.img.classList.add('sliding_img');
         this.img.setAttribute('src', this.props.nuotraukos[0]);
         this.img.setAttribute('alt', `${this.props.pavadinimas} foto`);
+
+        this.prevImageButton=document.createElement('button');
+        this.prevImageButton.classList.add('prev_button');
+        this.prevImageButton.textContent="‹";
+        this.prevImageButton.addEventListener('click',()=>this.showPrevImg());
+
+        this.nextImageButton=document.createElement('button');
+        this.nextImageButton.classList.add('next_button');
+        this.nextImageButton.textContent="›";
+        this.nextImageButton.addEventListener('click',()=>this.showNextImg());
+
+        this.imageCounter=document.createElement('div');
+        this.imageCounter.classList.add('image_counter');
+
+        this.currentPhoto=document.createElement('span');
+        this.currentPhoto.textContent=this.currentImage+1;
+        this.totalPhotos=document.createElement('span');
+        this.totalPhotos.textContent=this.props.nuotraukos.length;
+        this.imageCounter.append(this.currentPhoto,' / ',this.totalPhotos);
+
+        this.imageDiv.append(this.img,this.prevImageButton,this.nextImageButton,this.imageCounter);
 
         this.modalTextDiv = document.createElement('div');
         this.modalTextDiv.classList.add('modal_text');
@@ -47,7 +74,7 @@ export default class modaloGeneravimas {
         this.p2.appendChild(this.p2Text);
         this.modalTextDiv.appendChild(this.p2);
 
-        this.cardDiv.append(this.img, this.modalTextDiv);
+        this.cardDiv.append(this.imageDiv, this.modalTextDiv);
 
         this.lastP1 = document.createElement('p');
         this.lastP1Text = document.createTextNode(`${this.props.plotas} ha`);
@@ -91,4 +118,26 @@ export default class modaloGeneravimas {
     closeModal() {
         this.modalDiv.remove()
     }
+
+    showNextImg(){
+        if(this.currentImage<this.props.nuotraukos.length-1){
+            this.img.src=this.props.nuotraukos[this.currentImage+1]
+            this.currentImage++
+        }else{
+            this.img.src=this.props.nuotraukos[0]
+            this.currentImage=0;
+        }
+        this.currentPhoto.textContent=this.currentImage+1;
+    }
+    showPrevImg(){
+        if(this.currentImage>0){
+            this.img.src=this.props.nuotraukos[this.currentImage-1]
+            this.currentImage--
+        }else{
+            this.img.src=this.props.nuotraukos[this.props.nuotraukos.length-1]
+            this.currentImage=this.props.nuotraukos.length-1;
+        }
+        this.currentPhoto.textContent=this.currentImage+1;
+    }
+
 }
